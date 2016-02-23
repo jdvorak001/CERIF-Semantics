@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.5-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.5-1 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.5/CERIF_1.5_1.xsd" release="1.5" date="2014-12-31" sourceDatabase="CERIF1.5_Semantics.xls">
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd" date="2014-12-31" sourceDatabase="CERIF1.5_Semantics.xls">
   <cfClassScheme>
     <cfClassSchemeId>759af930-34ae-11e1-b86c-0800200c9a66</cfClassSchemeId>
     <cfName cfLangCode="en" cfTrans="o">Activity Structure</cfName>
     <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in a cfProject_Project link entity, being thus an activity structure.</cfDescr>
+    <!-- express usage of the class scheme in CERIF entities -->
+    <cfClassScheme_Class>
+        <cfClassId2>uuid of cf_Project_Project</cfClassId2>
+        <cfClassSchemeId2>6e0d9af0-1cd6-11e1-8bc2-0800200c9a66<!-- CERIF Entities --></cfClassSchemeId2>
+        <cfClassId>uuid of Applies to</cfClassId>
+        <cfClassSchemeId></cfClassSchemeId>
+    </cfClassScheme_Class>
     <cfClass>
       <!-- class schemes: Inter-Organisational Structure; Activity Structure; Inter-Publication Relations; Inter-Patent Relations; Inter-Product Relations; Inter-Event Relations; Inter-Facility Relations; Inter-Equipment Relations; Inter-Service Relations -->
       <!-- usage with CERIF: cfOrgUnit_OrgUnit; cfProj_Proj; cfFund_Fund; cfResPubl_ResPubl; cfResPat_ResPat; cfResProd_ResProd; cfEvent_Event; cfFacil_Facil; cfEquip_Equip; cfSrv_Srv -->
