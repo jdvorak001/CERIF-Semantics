@@ -73,5 +73,17 @@
       <cfDef cfLangCode="en" cfTrans="o">A cooperation is the collaborative work on a common enterprise or project.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
     </cfClass>
+        <cfClass>
+      <!-- class schemes: Activity Structure; Inter-Organisational Structure -->
+      <!-- usage with CERIF: cfProj_Proj; cfOrgUnit_OrgUnit -->
+      <cfClassId>eda2b2d7-34c5-11e1-b86c-0800200c9a77</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">My funny term</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">My University</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">new relation</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">inverse relation</cfRoleExprOpp>
+      <cfDef cfLangCode="en" cfTrans="o">This is a sample of a proposed new classification</cfDef>
+      <cfDefSrc cfLangCode="en" cfTrans="o">My University</cfDefSrc>
+    </cfClass>
+    
   </cfClassScheme>
 </CERIF>
