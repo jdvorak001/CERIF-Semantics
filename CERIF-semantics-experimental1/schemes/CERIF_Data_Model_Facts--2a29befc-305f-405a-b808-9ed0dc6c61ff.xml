@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd" date="2014-12-31" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClassScheme>
+    <cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff</cfClassSchemeId>
+    <cfName cfLangCode="en" cfTrans="o">CERIF Data Model Facts</cfName>
+    <cfDescr cfLangCode="en" cfTrans="o">This scheme contains defined the concepts necessary to describe the CERIF data model.</cfDescr>
+    <cfClass>
+      <cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">applicable</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">applies to</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">is used by</cfRoleExprOpp>
+    </cfClass>
+    <!-- other terms to add: attribute, datatype, primary key, foreign key, realize, used in profile, not used in profile -->
+  </cfClassScheme>
+</CERIF>
