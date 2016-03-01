@@ -12,6 +12,13 @@
       <cfRoleExpr cfLangCode="en" cfTrans="o">applies to</cfRoleExpr>
       <cfRoleExprOpp cfLangCode="en" cfTrans="o">is used by</cfRoleExprOpp>
     </cfClass>
+    <cfClass>
+      <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115</cfClassId>
+      <cfTerm cfLangCode="en" cfTrans="o">attribute</cfTerm>
+      <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+      <cfRoleExpr cfLangCode="en" cfTrans="o">has attribute</cfRoleExpr>
+      <cfRoleExprOpp cfLangCode="en" cfTrans="o">is an attribute of</cfRoleExprOpp>
+    </cfClass>
     <!-- other terms to add: attribute, datatype, primary key, foreign key, realize, used in profile, not used in profile -->
   </cfClassScheme>
 </CERIF>
