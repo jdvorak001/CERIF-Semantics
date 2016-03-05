@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="2015-01-01" sourceDatabase="CERIF.txp" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd">
+<cfClassScheme>
+<cfClassSchemeId>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId>
+<cfName cfLangCode="en" cfTrans="o">CERIF Entity Types</cfName>
+<cfDescr cfLangCode="en" cfTrans="o">This scheme contains the available classification for the CERIF Entities</cfDescr>
+<cfClass>
+<cfClassId>59fa2e25-4c00-4131-92bd-ad1c87bb867c<!-- Base Entities --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Base Entities</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>b854c3ae-270e-4fdd-a110-6494ae64c67a<!-- Classification --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Classification</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>af5cac09-e1db-49e1-98b4-e5677b7324ef<!-- Linking Entities --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Linking Entities</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>34011f15-8d84-4858-989f-a71490a9aeef<!-- Multilingual --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Multilingual</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>2902e5cf-9ae3-41bf-a043-d7d7ca99510a<!-- Result Entities --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Result Entities</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>a05cab00-b5c7-46df-9dde-e8e82dde46c6<!-- Additional Entities --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Additional Entities</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>4e67698c-3316-441a-8f81-b60767bf5578<!-- Infrastructure Entities --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Infrastructure Entities</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>69f7eebc-c27b-4b02-b2de-8e2b645669b2<!-- 2nd Order Entities --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">2nd Order Entities</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>3494420d-7b32-4815-83de-0229602da0b3<!-- Indicators & Measurements --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Indicators &amp; Measurements</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+</cfClassScheme>
+</CERIF>
