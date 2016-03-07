@@ -8,6 +8,13 @@
 <cfClassId>37b72c59-6efa-47c6-b837-77d6db06487c<!-- cfClass.cfClassId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfClass.cfClassId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfFedId>
+    <cfFedId>cfClassId</cfFedId>
+    <cfFedId_Class>
+        <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
+        <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
+    </cfFedId_Class>
+</cfFedId>
 </cfClass>
 <cfClass>
 <cfClassId>3605e512-41ff-40c0-bcb3-a43a374cde41<!-- cfClass.cfClassSchemeId --></cfClassId>

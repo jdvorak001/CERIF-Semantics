@@ -14,6 +14,13 @@
 
 A classification in the optimum case is uniquely identified through a uuid with the cfClassificationIdentifier (cfClassId) attribute (CERIF 1.3 provides a uuid for every specified term published at the euroCRIS website). A classification (uuid) is always assigned to at least one classification scheme (cfClassificationScheme or cfClassScheme) through the cfClassificationSchemeIdentifier (cfClassSchemeId) which is itself a uuid.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
+<cfFedId>
+    <cfFedId>cfClass</cfFedId>
+    <cfFedId_Class>
+        <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
+        <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
+    </cfFedId_Class>
+</cfFedId>
 <cfClass_Class>
 <cfClassId1>b854c3ae-270e-4fdd-a110-6494ae64c67a<!-- Classification --></cfClassId1>
 <cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
