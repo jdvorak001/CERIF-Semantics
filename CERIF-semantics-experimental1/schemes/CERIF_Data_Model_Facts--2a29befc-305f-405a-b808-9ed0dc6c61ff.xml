@@ -4,7 +4,7 @@
     <cfClassScheme>
         <cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
         <cfName cfLangCode="en" cfTrans="o">CERIF Data Model Facts</cfName>
-        <cfDescr cfLangCode="en" cfTrans="o">This scheme contains defined the concepts necessary to describe the CERIF data model.</cfDescr>
+        <cfDescr cfLangCode="en" cfTrans="o">This scheme contains the concepts necessary to describe the CERIF data model.</cfDescr>
         <cfClass>
             <cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
             <cfTerm cfLangCode="en" cfTrans="o">applicable</cfTerm>
@@ -13,13 +13,53 @@
             <cfRoleExprOpp cfLangCode="en" cfTrans="o">is used by</cfRoleExprOpp>
         </cfClass>
         <cfClass>
-            <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Has Attribute --></cfClassId>
-            <cfTerm cfLangCode="en" cfTrans="o">Has Attribute</cfTerm>
+            <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
             <cfTerm cfLangCode="en" cfTrans="o">attribute</cfTerm>
             <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
             <cfRoleExpr cfLangCode="en" cfTrans="o">has attribute</cfRoleExpr>
             <cfRoleExprOpp cfLangCode="en" cfTrans="o">is an attribute of</cfRoleExprOpp>
         </cfClass>
-        <!-- other terms to add: attribute, datatype, primary key, foreign key, realize, used in profile, not used in profile -->
+        <cfClass>
+            <cfClassId>f98c9c26-b41e-4d3c-a958-47c6f1a47eca<!-- Primary Key --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">primary key</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">has primary key</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">is a primary key of</cfRoleExprOpp>
+        </cfClass>
+        <cfClass>
+            <cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">reference</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">references</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">is referenced by</cfRoleExprOpp>
+        </cfClass>
+        <cfClass>
+            <cfClassId>553cdb44-7ed0-43c8-ae72-c8c71955ec4c<!-- datatype --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">datatype</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">has datatype</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">is the datatype of</cfRoleExprOpp>
+        </cfClass>
+        <cfClass>
+            <cfClassId>e6c43969-4aed-44ce-b2f0-7d85bbd2e898<!-- realize --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">realize</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">realizes</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">is realized by</cfRoleExprOpp>
+        </cfClass>
+        <cfClass>
+            <cfClassId>ff280b72-d85e-4000-92b9-d3866e477df0<!-- used in profile --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">used in profile</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">is used in profile</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">uses</cfRoleExprOpp>
+        </cfClass>
+        <cfClass>
+            <cfClassId>ce1bfb02-2aa6-47c0-afc8-27c9b36e0035<!-- not used in profile --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">not used in profile</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">is not used in profile</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">not uses</cfRoleExprOpp>
+        </cfClass>
     </cfClassScheme>
 </CERIF>
