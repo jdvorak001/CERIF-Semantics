@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd" date="2014-12-31" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClass_Class>
+    <cfClassId1>cf7799e0-3477-11e1-b86c-0800200c9a66<!-- cfPerson --></cfClassId1>
+    <cfClassId2>857c9009-8317-4f35-a1c7-e987e073f01a</cfClassId2>
+    <cfClassSchemeId1>6e0d9af0-1cd6-11e1-8bc2-0800200c9a66</cfClassSchemeId1>
+    <cfClassSchemeId2>95b3682e-1f2f-40bd-8b62-583f24c8bfa0<!-- CERIF Profiles --></cfClassSchemeId2>
+    <cfClassId>uuid for "used in profile"</cfClassId>
+    <cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data model facts --></cfClassSchemeId>
+  </cfClass_Class>
+</CERIF>

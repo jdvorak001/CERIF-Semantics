@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd" date="2014-12-31" sourceDatabase="CERIF1.5_Semantics.xls">
+  <cfClass_Class>
