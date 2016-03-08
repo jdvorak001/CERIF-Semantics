@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd" date="2014-12-31" sourceDatabase="CERIF1.5_Semantics.xls">
 <cfClassScheme>
-    <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916</cfClassSchemeId>
+    <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
     <cfName cfLangCode="en" cfTrans="o">Identifier Types</cfName>
     <cfDescr cfLangCode="en" cfTrans="o">This scheme contains CERIF vocabulary terms applicable in the cfFederatedIdentifier_Classification link entity, being thus a vocabulary of current authority identifiers (extensible and meant as a first start).</cfDescr>
     <cfClass>
@@ -215,6 +215,10 @@
       <cfTermSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfTermSrc>
       <cfDef cfLangCode="en" cfTrans="o">A value added tax identification number or VAT identification number (VATIN) is an identifier used in many countries, including the countries of the European Union, for value added tax purposes.</cfDef>
       <cfDefSrc cfLangCode="en" cfTrans="o">http://en.wikipedia.org/wiki/VAT_identification_number</cfDefSrc>
+    </cfClass>
+    <cfClass>
+        <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
+        <cfTerm cfLangCode="en" cfTrans="o">CERIF Physical Name</cfTerm>
     </cfClass>
   </cfClassScheme>
 </CERIF>
