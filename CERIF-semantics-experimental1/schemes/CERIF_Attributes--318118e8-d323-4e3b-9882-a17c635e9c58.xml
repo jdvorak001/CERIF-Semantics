@@ -458,6 +458,12 @@
 <cfClassId>4e9e6b36-44df-4368-96ce-2c5ccb6d5a33<!-- cfEvent.cfCountryCode --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfEvent.cfCountryCode</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>1a6e600f-a494-409c-ad45-8e0dea99f7b7<!-- cfCountry.cfCountryCode --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>2c20943a-6ecd-4485-9b99-609d7deee1fd<!-- cfEvent.cfCityTown --></cfClassId>
@@ -1708,6 +1714,12 @@
 <cfClassId>ee13888b-b5d5-40fe-8925-8e92ca0ea4af<!-- cfPers_EAddr.cfEAddrId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfPers_EAddr.cfEAddrId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>c692cdcb-d2ef-4600-ab48-cebe41752aa9<!-- cfEAddr.cfEAddrId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>fc19566b-2fb4-4225-8a5f-3e6531aa14bc<!-- cfPers_EAddr.cfClassId --></cfClassId>
@@ -1773,6 +1785,12 @@
 <cfClassId>e49ff7bf-7fab-4c2d-b9c1-9dc907ee985c<!-- cfPers_CV.cfCVId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfPers_CV.cfCVId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>c2b2756d-8341-4ebe-b695-e5a0cb9bbe28<!-- cfCV.cfCVId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>a726ae55-2515-4b4b-a8a9-9f69679d98a3<!-- cfPers_CV.cfClassId --></cfClassId>
@@ -1898,6 +1916,12 @@
 <cfClassId>d7eb4ddb-8041-4d5b-a054-ec97f1c10ea7<!-- cfPers_ExpSkills.cfExpSkillsId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfPers_ExpSkills.cfExpSkillsId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>2c2d5954-2011-4938-8727-e39215b69af8<!-- cfExpSkills.cfExpSkillsId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>7f32243c-29f4-40f1-bbb5-ae60bc94a597<!-- cfPers_ExpSkills.cfClassId --></cfClassId>
@@ -5268,11 +5292,23 @@
 <cfClassId>a114254c-228a-4657-9f86-1c987fced223<!-- cfResPubl_DC.cfDCId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfResPubl_DC.cfDCId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>f2a6d89d-ce5b-46a2-8438-6420bf947927<!-- cfDC.cfDCId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>445e8bda-74ad-4d2a-8fd5-0d175eb6a189<!-- cfResPubl_DC.cfDCScheme --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfResPubl_DC.cfDCScheme</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>cf854ed2-83bd-4703-8c3b-a485b0c41d5e<!-- cfDC.cfDCScheme --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>65e37dba-7fdd-4b1b-a3d0-6d8e3733b9ea<!-- cfResPubl_DC.cfClassId --></cfClassId>
@@ -5728,11 +5764,23 @@
 <cfClassId>7e014a8f-eb61-4b90-bf61-231c3374cea3<!-- cfPersName_Pers.cfPersNameId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfPersName_Pers.cfPersNameId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>ee2fb513-1c65-45eb-8050-32c8263ce5db<!-- cfPersName.cfPersNameId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>a3abe8ae-49db-440a-956e-a2186e110bfd<!-- cfPersName_Pers.cfPersId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfPersName_Pers.cfPersId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>d4fff87f-e0a6-4953-8374-2dbccb70acff<!-- cfPers.cfPersId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>9b1403dc-674c-46cc-bf17-b4db62a7d124<!-- cfPersName_Pers.cfClassId --></cfClassId>
@@ -5953,6 +6001,12 @@
 <cfClassId>d7470358-67dc-4604-8494-539e446ee688<!-- cfMetricsKeyw.cfMetricsId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfMetricsKeyw.cfMetricsId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>141208ef-f956-4ea7-b841-e16cef7058cd<!-- cfMetrics.cfMetricsId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>f8af1ef7-dfb8-4af5-9e65-8b8341bddc1d<!-- cfMetricsKeyw.cfLangCode --></cfClassId>
@@ -6518,6 +6572,12 @@
 <cfClassId>cbdf4bbf-7ba4-4cce-9df9-ea95cdba4021<!-- cfCite_Medium.cfCiteId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfCite_Medium.cfCiteId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>fcc13306-980a-4f12-be1b-77911ebb0191<!-- cfCite.cfCiteId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>bdc299d7-f6fb-4c17-8709-72be889f2f9e<!-- cfCite_Medium.cfMediumId --></cfClassId>
@@ -6763,6 +6823,12 @@
 <cfClassId>fe6092aa-9221-49e2-9deb-dd5a380d90f6<!-- cfSrv_PAddr.cfPAddrId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfSrv_PAddr.cfPAddrId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>77e62b33-5c40-4b3e-939a-b63c92555a28<!-- cfPAddr.cfPAddrId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>fdab9667-ecb6-4989-bd63-9d397192266e<!-- cfSrv_PAddr.cfClassId --></cfClassId>
@@ -7873,6 +7939,12 @@
 <cfClassId>fb213543-7139-4602-9ca9-543e4cd4f536<!-- cfFacil_Meas.cfFacilId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfFacil_Meas.cfFacilId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>928cb1f7-51c8-44ee-88e0-73ba3746f0e4<!-- cfFacil.cfFacilId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>dbe9559d-d1b9-4be1-bb8e-b3f7b15d99f4<!-- cfFacil_Meas.cfMeasId --></cfClassId>
@@ -7943,6 +8015,12 @@
 <cfClassId>8c720c72-8e57-4073-a10c-fb2ebe3863c1<!-- cfEquip_Meas.cfEquipId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfEquip_Meas.cfEquipId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>27c60d63-82ff-4c57-a584-e4b2598844de<!-- cfEquip.cfEquipId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>9a47d3a2-eba6-4cdd-8928-803d0f837dcc<!-- cfEquip_Meas.cfMeasId --></cfClassId>
@@ -8048,6 +8126,12 @@
 <cfClassId>2fa44d24-b95f-4d79-aa70-5468f7b449d8<!-- cfProj_Indic.cfProjId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfProj_Indic.cfProjId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>5c08c324-1607-429e-83f8-fd4a8b14cfc2<!-- cfProj.cfProjId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>e7462b27-f322-41bb-9cd7-1d6b647cf67b<!-- cfProj_Indic.cfIndicId --></cfClassId>
@@ -8328,6 +8412,12 @@
 <cfClassId>4973fb13-d3d8-4282-8245-d9a94e76261e<!-- cfEvent_Indic.cfEventId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfEvent_Indic.cfEventId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>ea31bf2b-1863-42e4-aafc-c50325265d5a<!-- cfEvent.cfEventId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>a1973ee6-94d0-4f52-aaf0-52dfa9db8e46<!-- cfEvent_Indic.cfIndicId --></cfClassId>
@@ -8363,6 +8453,12 @@
 <cfClassId>d6040bd0-67ad-4c66-b0c0-ce4dcc05fe53<!-- cfMedium_Indic.cfMediumId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfMedium_Indic.cfMediumId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>9648ba5e-33f7-4190-8bd0-d15bd010a8d0<!-- cfMedium.cfMediumId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>266ec6cf-470e-4600-9748-5fbe2b20991f<!-- cfMedium_Indic.cfIndicId --></cfClassId>
@@ -8663,6 +8759,12 @@
 <cfClassId>7c5690c4-a454-4f7a-886c-8e28414058de<!-- cfPrizeKeyw.cfPrizeId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfPrizeKeyw.cfPrizeId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>61c67155-fc7b-48f4-9705-2bca2cf86e50<!-- cfPrize.cfPrizeId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>742441be-f162-44f9-bec3-6257600654ec<!-- cfPrizeKeyw.cfLangCode --></cfClassId>
@@ -8688,6 +8790,12 @@
 <cfClassId>c4a67605-0355-40c8-a301-ae98410f7d83<!-- cfFund_Indic.cfIndicId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfFund_Indic.cfIndicId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>7df6dffc-49ea-436c-8d1c-0cd874417016<!-- cfIndic.cfIndicId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>7a27bcfb-8df2-42be-b836-0deeac96362d<!-- cfFund_Indic.cfClassSchemeId --></cfClassId>
@@ -8718,6 +8826,12 @@
 <cfClassId>249fb6d1-824a-4ce0-89b1-83ced13d3ec8<!-- cfFund_Indic.cfCurrCode --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfFund_Indic.cfCurrCode</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>ffa32f32-9420-4e72-97a6-453f010d277d<!-- cfCurrency.cfCurrCode --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>2d38c49c-ea82-4d91-8774-2d7edf9295f0<!-- cfFund_Indic.cfClassId --></cfClassId>
@@ -8728,6 +8842,12 @@
 <cfClassId>c51282f5-f172-49c6-861e-3ad04b0d15a7<!-- cfFund_Meas.cfFundId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfFund_Meas.cfFundId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>8f5075ab-eb76-4245-a3f9-65bcb303a733<!-- cfFund.cfFundId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>55a11eeb-0746-4d2e-9fb0-eef69e5fc0c9<!-- cfFund_Meas.cfMeasId --></cfClassId>
@@ -8773,6 +8893,12 @@
 <cfClassId>05930308-f9f6-43e5-9e02-be068b2bbf66<!-- cfQualTitle.cfQualId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfQualTitle.cfQualId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>fbc59fa0-5ea1-4ecc-8479-5024312db39b<!-- cfQual.cfQualId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>0d6b696b-bb46-4fc1-bea8-e93b5c6064f7<!-- cfQualTitle.cfLangCode --></cfClassId>
@@ -8833,6 +8959,12 @@
 <cfClassId>4b9e8686-78ff-468c-b1da-248ad5d9362c<!-- cfResPublVersInfo.cfResPublId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfResPublVersInfo.cfResPublId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>9725b8fc-4f6c-4670-99b6-f0fbb4473d31<!-- cfResPubl.cfResPublId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>b93bb80b-8fb2-47ad-8d49-65de5985ff43<!-- cfResPublVersInfo.cfLangCode --></cfClassId>
@@ -8918,11 +9050,23 @@
 <cfClassId>e634acea-a580-4d01-9b9d-7d124297f021<!-- cfFedId_Srv.cfFedIdId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfFedId_Srv.cfFedIdId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>2958ec9b-813a-4031-b441-e67b32081638<!-- cfFedId.cfFedIdId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>fae97913-906f-411c-984f-17af726dd3eb<!-- cfFedId_Srv.cfSrvId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfFedId_Srv.cfSrvId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>c0ef01eb-eb2f-4321-bd84-d03ecd75333c<!-- cfSrv.cfSrvId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>cb38fa72-788a-4f57-922c-59e8cad92e0a<!-- cfFedId_Srv.cfClassId --></cfClassId>
@@ -8958,6 +9102,12 @@
 <cfClassId>158a1c0d-69cd-436f-951d-11b8ed822942<!-- cfResProd_ResPat.cfResPatId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfResProd_ResPat.cfResPatId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>90b7d44e-decd-4ff9-b7d6-2d6b6486e9e5<!-- cfResPat.cfResPatId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>c4bac736-4602-47e5-bea3-bc321fe2ad90<!-- cfResProd_ResPat.cfClassId --></cfClassId>
@@ -8993,6 +9143,12 @@
 <cfClassId>0139b894-71f2-4f1f-b228-8c02a5253721<!-- cfResProdAltName.cfLangCode --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfResProdAltName.cfLangCode</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>f4d0de84-6c17-47c5-a3fd-78565796a357<!-- cfLang.cfLangCode --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>5d3b64bd-bba8-4460-a2f4-b13f26d61aa1<!-- cfResProdAltName.cfTrans --></cfClassId>
@@ -9008,6 +9164,12 @@
 <cfClassId>dec23e4b-3d6a-43ab-bf67-65033725256b<!-- cfResProd_GeoBBox.cfResProdId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfResProd_GeoBBox.cfResProdId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>51b1e84d-7303-418d-b481-88fcab70d237<!-- cfResProd.cfResProdId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>a3f33e60-150b-4244-8557-e0d5ccc46d21<!-- cfResProd_GeoBBox.cfGeoBBoxId --></cfClassId>
@@ -9043,11 +9205,23 @@
 <cfClassId>f4328622-aaa5-4288-ba11-8c9f6f0d57fe<!-- cfGeoBBox_Meas.cfGeoBBoxId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfGeoBBox_Meas.cfGeoBBoxId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>0621303f-9504-40a9-be14-b7d08cc37400<!-- cfGeoBBox.cfGeoBBoxId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>0daa4372-b0e8-4dbe-b6ad-a9ad079e6250<!-- cfGeoBBox_Meas.cfMeasId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfGeoBBox_Meas.cfMeasId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>d583b549-145a-44cf-b506-122adabb8007<!-- cfMeas.cfMeasId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>7c2348a0-0a8e-4dfc-a565-ff03c6d66109<!-- cfGeoBBox_Meas.cfClassId --></cfClassId>
@@ -9118,21 +9292,45 @@
 <cfClassId>a33f5cec-1bf5-4a64-bbf3-7d80f3cfbdc4<!-- cfClassScheme_OrgUnit.cfClassSchemeId1 --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfClassScheme_OrgUnit.cfClassSchemeId1</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>d92dc5f5-ab07-4e44-a0a1-577965d804de<!-- cfClassScheme.cfClassSchemeId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>c1a72bf0-65a3-4ff2-9dce-ff0a0fcdfaaf<!-- cfClassScheme_OrgUnit.cfOrgUnitId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfClassScheme_OrgUnit.cfOrgUnitId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>cebfe2fd-91e4-422f-9d59-823d0c58cfa3<!-- cfOrgUnit.cfOrgUnitId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>d0df6ca4-f5a2-4f10-ae6b-a9b3178dabbe<!-- cfClassScheme_OrgUnit.cfClassId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfClassScheme_OrgUnit.cfClassId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>37b72c59-6efa-47c6-b837-77d6db06487c<!-- cfClass.cfClassId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>271ceaf3-a2ea-4bd2-8fd6-292cc10451c0<!-- cfClassScheme_OrgUnit.cfClassSchemeId --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">cfClassScheme_OrgUnit.cfClassSchemeId</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+<cfClass_Class>
+<cfClassId2>3605e512-41ff-40c0-bcb3-a43a374cde41<!-- cfClass.cfClassSchemeId --></cfClassId2>
+<cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
+<cfClassId>2eb07fe9-3910-430e-be50-232589608bf4<!-- reference --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 </cfClass>
 <cfClass>
 <cfClassId>fcaf9a34-b508-47b1-8e1f-2de4b0dd713b<!-- cfClassScheme_OrgUnit.cfStartDate --></cfClassId>
