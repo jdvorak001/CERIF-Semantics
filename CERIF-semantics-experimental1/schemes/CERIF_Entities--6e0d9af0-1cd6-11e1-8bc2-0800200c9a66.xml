@@ -15,7 +15,7 @@
 A classification in the optimum case is uniquely identified through a uuid with the cfClassificationIdentifier (cfClassId) attribute (CERIF 1.3 provides a uuid for every specified term published at the euroCRIS website). A classification (uuid) is always assigned to at least one classification scheme (cfClassificationScheme or cfClassScheme) through the cfClassificationSchemeIdentifier (cfClassSchemeId) which is itself a uuid.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfClassification</cfFedId>
+<cfFedId>cfClass</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -77,7 +77,7 @@ A classification in the optimum case is uniquely identified through a uuid with 
 <cfDef cfLangCode="en" cfTrans="o">In CERIF, the concept of Classification Scheme is physically (cfClassScheme) and logically (cfClassificationScheme) defined as an entity in an ERM, represented by attributes and through maintaining relationships with other entities: classes, classification schemes, multilingual classification scheme names, multilingual classification scheme descriptions.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfClassificationScheme</cfFedId>
+<cfFedId>cfClassScheme</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -115,7 +115,7 @@ A classification in the optimum case is uniquely identified through a uuid with 
 The CERIF classification scheme description entity is physically (cfClassSchemeDescr) and logically (cfClassificationSchemeDescription) defined as an entity in the ERM, which is linked to the cfClass (cfClassification) entity through the (cfClassId) or (cfClassificationIdentifier) inheritance.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfClassificationSchemeDescription</cfFedId>
+<cfFedId>cfClassSchemeDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -179,7 +179,7 @@ The CERIF classification scheme description entity is physically (cfClassSchemeD
 <cfTerm cfLangCode="en" cfTrans="o">Language</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfLanguage</cfFedId>
+<cfFedId>cfLang</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -213,7 +213,7 @@ The CERIF classification scheme description entity is physically (cfClassSchemeD
 <cfTerm cfLangCode="en" cfTrans="o">Language Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfLanguageName</cfFedId>
+<cfFedId>cfLangName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -275,7 +275,7 @@ The CERIF classification scheme description entity is physically (cfClassSchemeD
 The CERIF classification description entity is physically (cfClassDescr) and logically (cfClassificationDescription) defined as an entity in the ERM, which is linked to the cfClass (cfClassification) entity through the (cfClassId) or (cfClassificationIdentifier) inheritance.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfClassificationDescription</cfFedId>
+<cfFedId>cfClassDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -351,7 +351,7 @@ The CERIF classification description entity is physically (cfClassDescr) and log
 <cfTerm cfLangCode="en" cfTrans="o">Classification_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfClassification_Classification</cfFedId>
+<cfFedId>cfClass_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -473,7 +473,7 @@ The CERIF classification description entity is physically (cfClassDescr) and log
 The CERIF classification term entity is physically (cfTerm) and logically (cfClassificationTem) defined as an entity in the ERM, which is linked to the cfClass (cfClassification) entity through the (cfClassId) or (cfClassificationIdentifier) inheritance.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfClassificationTerm</cfFedId>
+<cfFedId>cfClassTerm</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -561,7 +561,7 @@ The CERIF classification term entity is physically (cfTerm) and logically (cfCla
 <cfTerm cfLangCode="en" cfTrans="o">Classification Scheme_ Classification Scheme</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfClassificationScheme_ClassificationScheme</cfFedId>
+<cfFedId>cfClassScheme_ClassScheme</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -655,7 +655,7 @@ The CERIF classification term entity is physically (cfTerm) and logically (cfCla
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Classification</cfFedId>
+<cfFedId>cfFacil_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -775,7 +775,7 @@ The CERIF classification term entity is physically (cfTerm) and logically (cfCla
 Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=cv</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfCurriculumVitae</cfFedId>
+<cfFedId>cfCV</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -819,7 +819,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=cv</cfDef>
 Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=equipment</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfEquipment</cfFedId>
+<cfFedId>cfEquip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -859,7 +859,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=equipment</cfDef
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Classification</cfFedId>
+<cfFedId>cfEquip_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -941,7 +941,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=equipment</cfDef
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Funding</cfFedId>
+<cfFedId>cfEquip_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1047,7 +1047,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=equipment</cfDef
 <cfTerm cfLangCode="en" cfTrans="o">Equipment Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipmentDescription</cfFedId>
+<cfFedId>cfEquipDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1105,7 +1105,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=equipment</cfDef
 <cfTerm cfLangCode="en" cfTrans="o">Equipment Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipmentKeywords</cfFedId>
+<cfFedId>cfEquipKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1163,7 +1163,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=equipment</cfDef
 <cfTerm cfLangCode="en" cfTrans="o">Equipment Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipmentName</cfFedId>
+<cfFedId>cfEquipName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1347,7 +1347,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Event Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEventDescription</cfFedId>
+<cfFedId>cfEventDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1405,7 +1405,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Event Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEventKeywords</cfFedId>
+<cfFedId>cfEventKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1463,7 +1463,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Event_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEvent_Classification</cfFedId>
+<cfFedId>cfEvent_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1545,7 +1545,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Event_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEvent_Funding</cfFedId>
+<cfFedId>cfEvent_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1651,7 +1651,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Event</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Event</cfFedId>
+<cfFedId>cfResPubl_Event</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1747,7 +1747,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfDef cfLangCode="en" cfTrans="o">A facility is a space or equipment necessary for conducting research.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfFacility</cfFedId>
+<cfFedId>cfFacil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1787,7 +1787,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Facility Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacilityName</cfFedId>
+<cfFedId>cfFacilName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1845,7 +1845,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Facility Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacilityDescription</cfFedId>
+<cfFedId>cfFacilDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1903,7 +1903,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Facility Kewords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacilityKewords</cfFedId>
+<cfFedId>cfFacilKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -1961,7 +1961,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Funding</cfFedId>
+<cfFedId>cfFacil_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2069,7 +2069,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfDef cfLangCode="en" cfTrans="o">Funding is an amount of money or inkind	equivalent value.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfFunding</cfFedId>
+<cfFedId>cfFund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2133,7 +2133,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Funding Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFundingName</cfFedId>
+<cfFedId>cfFundName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2191,7 +2191,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Funding Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFundingDescription</cfFedId>
+<cfFedId>cfFundDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2249,7 +2249,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Funding_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFunding_Classification</cfFedId>
+<cfFedId>cfFund_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2331,7 +2331,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Funding Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFundingKeywords</cfFedId>
+<cfFedId>cfFundKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2389,7 +2389,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Funding_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFunding_Funding</cfFedId>
+<cfFedId>cfFund_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2487,7 +2487,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=event</cfDef>
 Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit</cfFedId>
+<cfFedId>cfOrgUnit</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2545,7 +2545,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnitName</cfFedId>
+<cfFedId>cfOrgUnitName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2603,7 +2603,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit Research Activity</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnitResearchActivity</cfFedId>
+<cfFedId>cfOrgUnitResAct</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2661,7 +2661,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnitKeywords</cfFedId>
+<cfFedId>cfOrgUnitKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2719,7 +2719,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Classification</cfFedId>
+<cfFedId>cfOrgUnit_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2801,7 +2801,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Equipment</cfFedId>
+<cfFedId>cfOrgUnit_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -2919,7 +2919,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Electronic Address</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_ElectronicAddress</cfFedId>
+<cfFedId>cfOrgUnit_EAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3013,7 +3013,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Event</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Event</cfFedId>
+<cfFedId>cfOrgUnit_Event</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3107,7 +3107,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Expertise And Skills</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_ExpertiseAndSkills</cfFedId>
+<cfFedId>cfOrgUnit_ExpSkills</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3225,7 +3225,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Facility</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Facility</cfFedId>
+<cfFedId>cfOrgUnit_Facil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3343,7 +3343,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Funding</cfFedId>
+<cfFedId>cfOrgUnit_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3449,7 +3449,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Organisation Unit</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_OrganisationUnit</cfFedId>
+<cfFedId>cfOrgUnit_OrgUnit</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3543,7 +3543,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Prize Award</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_PrizeAward</cfFedId>
+<cfFedId>cfOrgUnit_Prize</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3637,7 +3637,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Result Patent</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_ResultPatent</cfFedId>
+<cfFedId>cfOrgUnit_ResPat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3737,7 +3737,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Result Product</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_ResultProduct</cfFedId>
+<cfFedId>cfOrgUnit_ResProd</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3861,7 +3861,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Result Publication</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_ResultPublication</cfFedId>
+<cfFedId>cfOrgUnit_ResPubl</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -3967,7 +3967,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Service</cfFedId>
+<cfFedId>cfOrgUnit_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4088,7 +4088,7 @@ Definition Source: http://en.wikipedia.org/wiki/Organization</cfDef>
 Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfPerson</cfFedId>
+<cfFedId>cfPers</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4134,7 +4134,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person Research Interest</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPersonResearchInterest</cfFedId>
+<cfFedId>cfPersResInt</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4192,7 +4192,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPersonKeywords</cfFedId>
+<cfFedId>cfPersKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4250,7 +4250,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Person</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Person</cfFedId>
+<cfFedId>cfPers_Pers</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4344,7 +4344,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Electronic Address</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_ElectronicAddress</cfFedId>
+<cfFedId>cfPers_EAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4438,7 +4438,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Classification</cfFedId>
+<cfFedId>cfPers_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4520,7 +4520,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Curriculum Vitae</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_CurriculumVitae</cfFedId>
+<cfFedId>cfPers_CV</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4614,7 +4614,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Equipment</cfFedId>
+<cfFedId>cfPers_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4732,7 +4732,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Event</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Event</cfFedId>
+<cfFedId>cfPers_Event</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4826,7 +4826,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Expertise And Skills</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_ExpertiseAndSkills</cfFedId>
+<cfFedId>cfPers_ExpSkills</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -4944,7 +4944,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Facility</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Facility</cfFedId>
+<cfFedId>cfPers_Facil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5062,7 +5062,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Funding</cfFedId>
+<cfFedId>cfPers_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5168,7 +5168,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Language</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Language</cfFedId>
+<cfFedId>cfPers_Lang</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5280,7 +5280,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Country</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Country</cfFedId>
+<cfFedId>cfPers_Country</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5374,7 +5374,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Organisation Unit</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_OrganisationUnit</cfFedId>
+<cfFedId>cfPers_OrgUnit</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5468,7 +5468,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Prize Award</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_PrizeAward</cfFedId>
+<cfFedId>cfPers_Prize</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5562,7 +5562,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Result Patent</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_ResultPatent</cfFedId>
+<cfFedId>cfPers_ResPat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5662,7 +5662,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Result Product</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_ResultProduct</cfFedId>
+<cfFedId>cfPers_ResProd</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5792,7 +5792,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Result Publication</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_ResultPublication</cfFedId>
+<cfFedId>cfPers_ResPubl</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -5898,7 +5898,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Service</cfFedId>
+<cfFedId>cfPers_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6020,7 +6020,7 @@ Definition Source: http://en.wikipedia.org/wiki/Person</cfDef>
 Definition Source: http://www.thefreedictionary.com/prize</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfPrizeAward</cfFedId>
+<cfFedId>cfPrize</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6058,7 +6058,7 @@ Definition Source: http://www.thefreedictionary.com/prize</cfDef>
 Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfProject</cfFedId>
+<cfFedId>cfProj</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6110,7 +6110,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Classification</cfFedId>
+<cfFedId>cfProj_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6192,7 +6192,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project Title</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProjectTitle</cfFedId>
+<cfFedId>cfProjTitle</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6252,7 +6252,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfDef cfLangCode="en" cfTrans="o">A short description of the project activity and goals.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfProjectAbstract</cfFedId>
+<cfFedId>cfProjAbstr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6310,7 +6310,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProjectKeywords</cfFedId>
+<cfFedId>cfProjKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6368,7 +6368,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Equipment</cfFedId>
+<cfFedId>cfProj_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6486,7 +6486,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Event</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Event</cfFedId>
+<cfFedId>cfProj_Event</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6580,7 +6580,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Facility</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Facility</cfFedId>
+<cfFedId>cfProj_Facil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6698,7 +6698,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Funding</cfFedId>
+<cfFedId>cfProj_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6804,7 +6804,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Organisation Unit</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_OrganisationUnit</cfFedId>
+<cfFedId>cfProj_OrgUnit</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6898,7 +6898,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Person</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Person</cfFedId>
+<cfFedId>cfProj_Pers</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -6992,7 +6992,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Prize Award</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_PrizeAward</cfFedId>
+<cfFedId>cfProj_Prize</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7092,7 +7092,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Result Patent</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_ResultPatent</cfFedId>
+<cfFedId>cfProj_ResPat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7186,7 +7186,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Project</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Project</cfFedId>
+<cfFedId>cfProj_Proj</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7280,7 +7280,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Result Product</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_ResultProduct</cfFedId>
+<cfFedId>cfProj_ResProd</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7374,7 +7374,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Result Publication</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_ResultPublication</cfFedId>
+<cfFedId>cfProj_ResPubl</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7478,7 +7478,7 @@ Definition Source: http://en.wikipedia.org/wiki/Project</cfDef>
 Definition Source: http://dictionary.casrai.org/research-personnel-profile/1.1.0/contributions/outputs/publications</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultPublication</cfFedId>
+<cfFedId>cfResPubl</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7582,7 +7582,7 @@ Definition Source: http://dictionary.casrai.org/research-personnel-profile/1.1.0
 Definition Source: http://en.wikipedia.org/wiki/Patent</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultPatent</cfFedId>
+<cfFedId>cfResPat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7640,7 +7640,7 @@ Definition Source: http://en.wikipedia.org/wiki/Patent</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent Title</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatentTitle</cfFedId>
+<cfFedId>cfResPatTitle</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7698,7 +7698,7 @@ Definition Source: http://en.wikipedia.org/wiki/Patent</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent Abstract</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatentAbstract</cfFedId>
+<cfFedId>cfResPatAbstr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7756,7 +7756,7 @@ Definition Source: http://en.wikipedia.org/wiki/Patent</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatentKeywords</cfFedId>
+<cfFedId>cfResPatKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7814,7 +7814,7 @@ Definition Source: http://en.wikipedia.org/wiki/Patent</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Classification</cfFedId>
+<cfFedId>cfResPat_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7900,7 +7900,7 @@ Definition Source: http://en.wikipedia.org/wiki/Patent</cfDef>
 The entity product in CERIF has often caused confusion, it was maybe not stressed enough, that a CERIF product is considered a result in general, achieved through some effort - and not at all is it a commercial or physical product only. It was intended to also represent i.e. software or 'research data'.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultProduct</cfFedId>
+<cfFedId>cfResProd</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -7934,7 +7934,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Classification</cfFedId>
+<cfFedId>cfResProd_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8016,7 +8016,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Funding</cfFedId>
+<cfFedId>cfResProd_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8122,7 +8122,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Product Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProductName</cfFedId>
+<cfFedId>cfResProdName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8180,7 +8180,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Product Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProductDescription</cfFedId>
+<cfFedId>cfResProdDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8238,7 +8238,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Product Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProductKeywords</cfFedId>
+<cfFedId>cfResProdKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8296,7 +8296,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication Title</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublicationTitle</cfFedId>
+<cfFedId>cfResPublTitle</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8354,7 +8354,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication Abstract</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublicationAbstract</cfFedId>
+<cfFedId>cfResPublAbstr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8412,7 +8412,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Result Publication</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_ResultPublication</cfFedId>
+<cfFedId>cfResPubl_ResPubl</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8506,7 +8506,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Classification</cfFedId>
+<cfFedId>cfResPubl_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8590,7 +8590,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfDef cfLangCode="en" cfTrans="o">A service is an exchange for money or other commodities where an enduser receives for money from a supplier.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfService</cfFedId>
+<cfFedId>cfSrv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8630,7 +8630,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Service Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfServiceName</cfFedId>
+<cfFedId>cfSrvName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8688,7 +8688,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Service Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfServiceDescription</cfFedId>
+<cfFedId>cfSrvDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8746,7 +8746,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Service Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfServiceKeywords</cfFedId>
+<cfFedId>cfSrvKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8804,7 +8804,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_Classification</cfFedId>
+<cfFedId>cfSrv_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8886,7 +8886,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublicationKeywords</cfFedId>
+<cfFedId>cfResPublKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8948,7 +8948,7 @@ The entity product in CERIF has often caused confusion, it was maybe not stresse
 Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfElectronicAddress</cfFedId>
+<cfFedId>cfEAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -8991,7 +8991,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfPostAddress</cfFedId>
+<cfFedId>cfPAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9079,7 +9079,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Post Address</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_PostAddress</cfFedId>
+<cfFedId>cfOrgUnit_PAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9173,7 +9173,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Electronic Address_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfElectronicAddress_Classification</cfFedId>
+<cfFedId>cfEAddr_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9255,7 +9255,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Post Address</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_PostAddress</cfFedId>
+<cfFedId>cfPers_PAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9349,7 +9349,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Post Address_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPostAddress_Classification</cfFedId>
+<cfFedId>cfPAddr_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9431,7 +9431,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Funding</cfFedId>
+<cfFedId>cfResPubl_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9537,7 +9537,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Funding</cfFedId>
+<cfFedId>cfResPat_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9643,7 +9643,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Expertise And Skills</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfExpertiseAndSkills</cfFedId>
+<cfFedId>cfExpSkills</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9677,7 +9677,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Expertise And Skills Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfExpertiseAndSkillsName</cfFedId>
+<cfFedId>cfExpSkillsName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9735,7 +9735,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Expertise And Skills Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfExpertiseAndSkillsKeywords</cfFedId>
+<cfFedId>cfExpSkillsKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9793,7 +9793,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Expertise And Skills Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfExpertiseAndSkillsDescription</cfFedId>
+<cfFedId>cfExpSkillsDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -9851,7 +9851,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Expertise And Skills_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfExpertiseAndSkills_Classification</cfFedId>
+<cfFedId>cfExpSkills_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10031,7 +10031,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Currency Entity Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCurrencyEntityName</cfFedId>
+<cfFedId>cfCurrencyEntName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10147,7 +10147,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Curriculum Vitae_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCurriculumVitae_Classification</cfFedId>
+<cfFedId>cfCV_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10229,7 +10229,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Prize Award_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPrizeAward_Classification</cfFedId>
+<cfFedId>cfPrize_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10311,7 +10311,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Country_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCountry_Classification</cfFedId>
+<cfFedId>cfCountry_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10393,7 +10393,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Currency_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCurrency_Classification</cfFedId>
+<cfFedId>cfCurrency_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10475,7 +10475,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Language_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfLanguage_Classification</cfFedId>
+<cfFedId>cfLang_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10557,7 +10557,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCore</cfFedId>
+<cfFedId>cfDC</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10597,7 +10597,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Publisher</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCorePublisher</cfFedId>
+<cfFedId>cfDCPublisher</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10667,7 +10667,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Creator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreCreator</cfFedId>
+<cfFedId>cfDCCreator</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10737,7 +10737,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Contributor</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreContributor</cfFedId>
+<cfFedId>cfDCContributor</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10807,7 +10807,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Relation</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreRelation</cfFedId>
+<cfFedId>cfDCRelation</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10925,7 +10925,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Language</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreLanguage</cfFedId>
+<cfFedId>cfDCLanguage</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -10995,7 +10995,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Rights Holder</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreRightsHolder</cfFedId>
+<cfFedId>cfDCRightsHolder</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11065,7 +11065,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Title</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreTitle</cfFedId>
+<cfFedId>cfDCTitle</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11135,7 +11135,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Subject</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreSubject</cfFedId>
+<cfFedId>cfDCSubject</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11205,7 +11205,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreDescription</cfFedId>
+<cfFedId>cfDCDescription</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11275,7 +11275,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Date</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreDate</cfFedId>
+<cfFedId>cfDCDate</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11357,7 +11357,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Audience</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreAudience</cfFedId>
+<cfFedId>cfDCAudience</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11427,7 +11427,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Resource Type</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreResourceType</cfFedId>
+<cfFedId>cfDCResourceType</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11497,7 +11497,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Format</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreFormat</cfFedId>
+<cfFedId>cfDCFormat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11567,7 +11567,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Resource Identifier</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreResourceIdentifier</cfFedId>
+<cfFedId>cfDCResourceIdentifier</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11637,7 +11637,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Provenance</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreProvenance</cfFedId>
+<cfFedId>cfDCProvenance</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11707,7 +11707,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Source</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreSource</cfFedId>
+<cfFedId>cfDCSource</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11777,7 +11777,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Coverage</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreCoverage</cfFedId>
+<cfFedId>cfDCCoverage</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11847,7 +11847,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Coverage Spatial</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreCoverageSpatial</cfFedId>
+<cfFedId>cfDCCoverageSpatial</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -11935,7 +11935,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Coverage Temporal</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreCoverageTemporal</cfFedId>
+<cfFedId>cfDCCoverageTemporal</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12017,7 +12017,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Rights Management</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreRightsManagement</cfFedId>
+<cfFedId>cfDCRightsMM</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12087,7 +12087,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Rights Management Access Rights</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreRightsManagementAccessRights</cfFedId>
+<cfFedId>cfDCRightsMMAccessRights</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12151,7 +12151,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Dublin Core Rights Management License</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfDublinCoreRightsManagementLicense</cfFedId>
+<cfFedId>cfDCRightsMMLicense</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12215,7 +12215,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Formalised Dublin Core Rights Management Privacy</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFormalisedDublinCoreRightsManagementPrivacy</cfFedId>
+<cfFedId>cfFDCRightsMMPrivacy</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12279,7 +12279,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Formalised Dublin Core Rights Management Rights</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFormalisedDublinCoreRightsManagementRights</cfFedId>
+<cfFedId>cfFDCRightsMMRights</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12343,7 +12343,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Formalised Dublin Core Rights Management Pricing</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFormalisedDublinCoreRightsManagementPricing</cfFedId>
+<cfFedId>cfFDCRightsMMPricing</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12407,7 +12407,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Formalised Dublin Core Rights Management Security</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFormalisedDublinCoreRightsManagementSecurity</cfFedId>
+<cfFedId>cfFDCRightsMMSecurity</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12471,7 +12471,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Dublin Core</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_DublinCore</cfFedId>
+<cfFedId>cfOrgUnit_DC</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12577,7 +12577,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Dublin Core</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_DublinCore</cfFedId>
+<cfFedId>cfPers_DC</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12683,7 +12683,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Dublin Core</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_DublinCore</cfFedId>
+<cfFedId>cfProj_DC</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12792,7 +12792,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=qualification</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfQualification</cfFedId>
+<cfFedId>cfQual</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12826,7 +12826,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=qualification</c
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Qualification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Qualification</cfFedId>
+<cfFedId>cfPers_Qual</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12920,7 +12920,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=qualification</c
 <cfTerm cfLangCode="en" cfTrans="o">Qualification Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfQualificationDescription</cfFedId>
+<cfFedId>cfQualDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -12978,7 +12978,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=qualification</c
 <cfTerm cfLangCode="en" cfTrans="o">Qualification Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfQualificationKeywords</cfFedId>
+<cfFedId>cfQualKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13036,7 +13036,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=qualification</c
 <cfTerm cfLangCode="en" cfTrans="o">Qualification_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfQualification_Classification</cfFedId>
+<cfFedId>cfQual_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13118,7 +13118,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=qualification</c
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Service</cfFedId>
+<cfFedId>cfProj_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13236,7 +13236,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=qualification</c
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Dublin Core</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_DublinCore</cfFedId>
+<cfFedId>cfResPubl_DC</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13348,7 +13348,7 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=citation
 In CERIF, the citation concept is used for publication references outside from the current information system.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfCitation</cfFedId>
+<cfFedId>cfCite</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13410,7 +13410,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication Bibliographic Note</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublicationBibliographicNote</cfFedId>
+<cfFedId>cfResPublBiblNote</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13468,7 +13468,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Facility</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Facility</cfFedId>
+<cfFedId>cfResPubl_Facil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13562,7 +13562,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Equipment</cfFedId>
+<cfFedId>cfResPubl_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13656,7 +13656,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Result Product</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_ResultProduct</cfFedId>
+<cfFedId>cfResPubl_ResProd</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13750,7 +13750,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Result Patent</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_ResultPatent</cfFedId>
+<cfFedId>cfResPubl_ResPat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13844,7 +13844,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication Name Abbreviation</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublicationNameAbbreviation</cfFedId>
+<cfFedId>cfResPublNameAbbrev</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -13996,7 +13996,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication Subtitle</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublicationSubtitle</cfFedId>
+<cfFedId>cfResPublSubtitle</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14054,7 +14054,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Citation</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Citation</cfFedId>
+<cfFedId>cfResPubl_Cite</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14160,7 +14160,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Citation_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCitation_Classification</cfFedId>
+<cfFedId>cfCite_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14242,7 +14242,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Metrics_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMetrics_Classification</cfFedId>
+<cfFedId>cfMetrics_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14324,7 +14324,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Metrics</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Metrics</cfFedId>
+<cfFedId>cfResPubl_Metrics</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14430,7 +14430,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Person Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPersonName</cfFedId>
+<cfFedId>cfPersName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14476,7 +14476,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Person Name_ Person</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPersonName_Person</cfFedId>
+<cfFedId>cfPersName_Pers</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14622,7 +14622,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Citation Title</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCitationTitle</cfFedId>
+<cfFedId>cfCiteTitle</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14680,7 +14680,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Citation Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCitationDescription</cfFedId>
+<cfFedId>cfCiteDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14738,7 +14738,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Metrics Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMetricsDescription</cfFedId>
+<cfFedId>cfMetricsDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14796,7 +14796,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Result Product</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_ResultProduct</cfFedId>
+<cfFedId>cfResProd_ResProd</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14890,7 +14890,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Result Patent</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_ResultPatent</cfFedId>
+<cfFedId>cfResPat_ResPat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -14984,7 +14984,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_Funding</cfFedId>
+<cfFedId>cfSrv_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15090,7 +15090,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Metrics Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMetricsKeywords</cfFedId>
+<cfFedId>cfMetricsKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15252,7 +15252,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Medium Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMediumDescription</cfFedId>
+<cfFedId>cfMediumDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15310,7 +15310,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Medium Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMediumKeywords</cfFedId>
+<cfFedId>cfMediumKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15368,7 +15368,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Medium</cfFedId>
+<cfFedId>cfResPubl_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15462,7 +15462,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Medium</cfFedId>
+<cfFedId>cfResPat_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15556,7 +15556,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Medium</cfFedId>
+<cfFedId>cfResProd_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15650,7 +15650,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Medium</cfFedId>
+<cfFedId>cfFacil_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15744,7 +15744,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Medium</cfFedId>
+<cfFedId>cfEquip_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -15838,7 +15838,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_Medium</cfFedId>
+<cfFedId>cfSrv_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16026,7 +16026,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Medium</cfFedId>
+<cfFedId>cfProj_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16120,7 +16120,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Medium</cfFedId>
+<cfFedId>cfPers_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16214,7 +16214,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Medium</cfFedId>
+<cfFedId>cfOrgUnit_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16308,7 +16308,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Medium_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMedium_Classification</cfFedId>
+<cfFedId>cfMedium_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16484,7 +16484,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Medium_ Funding</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMedium_Funding</cfFedId>
+<cfFedId>cfMedium_Fund</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16590,7 +16590,7 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfTerm cfLangCode="en" cfTrans="o">Citation_ Medium</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfCitation_Medium</cfFedId>
+<cfFedId>cfCite_Medium</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16690,7 +16690,7 @@ A geographic bounding box is the extent of the resource in the geographic space,
 Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/items/167;jsessionid=23867F8AABA4DE08237EF7A868CB16AA</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfGeographicBoundingBox</cfFedId>
+<cfFedId>cfGeoBBox</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16760,7 +16760,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Geographic Bounding Box Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfGeographicBoundingBoxName</cfFedId>
+<cfFedId>cfGeoBBoxName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16818,7 +16818,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Geographic Bounding Box Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfGeographicBoundingBoxDescription</cfFedId>
+<cfFedId>cfGeoBBoxDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16876,7 +16876,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Geographic Bounding Box Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfGeographicBoundingBoxKeywords</cfFedId>
+<cfFedId>cfGeoBBoxKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -16934,7 +16934,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Post Address_ Geographic Bounding Box</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPostAddress_GeographicBoundingBox</cfFedId>
+<cfFedId>cfPAddr_GeoBBox</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17028,7 +17028,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Post Address</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_PostAddress</cfFedId>
+<cfFedId>cfEquip_PAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17122,7 +17122,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Post Address</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_PostAddress</cfFedId>
+<cfFedId>cfFacil_PAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17216,7 +17216,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Post Address</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_PostAddress</cfFedId>
+<cfFedId>cfSrv_PAddr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17310,7 +17310,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Geographic Bounding Box_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfGeographicBoundingBox_Classification</cfFedId>
+<cfFedId>cfGeoBBox_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17392,7 +17392,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Equipment</cfFedId>
+<cfFedId>cfEquip_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17486,7 +17486,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_Service</cfFedId>
+<cfFedId>cfSrv_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17580,7 +17580,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Facility</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Facility</cfFedId>
+<cfFedId>cfFacil_Facil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17674,7 +17674,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Equipment</cfFedId>
+<cfFedId>cfFacil_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17768,7 +17768,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Service</cfFedId>
+<cfFedId>cfFacil_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17862,7 +17862,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Service</cfFedId>
+<cfFedId>cfEquip_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -17956,7 +17956,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Event</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Event</cfFedId>
+<cfFedId>cfFacil_Event</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18050,7 +18050,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Event</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_Event</cfFedId>
+<cfFedId>cfSrv_Event</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18144,7 +18144,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Event</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Event</cfFedId>
+<cfFedId>cfEquip_Event</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18238,7 +18238,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Service</cfFedId>
+<cfFedId>cfResPubl_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18332,7 +18332,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Facility</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Facility</cfFedId>
+<cfFedId>cfResPat_Facil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18426,7 +18426,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Service</cfFedId>
+<cfFedId>cfResPat_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18520,7 +18520,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Equipment</cfFedId>
+<cfFedId>cfResPat_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18614,7 +18614,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Facility</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Facility</cfFedId>
+<cfFedId>cfResProd_Facil</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18708,7 +18708,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Service</cfFedId>
+<cfFedId>cfResProd_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18802,7 +18802,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Equipment</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Equipment</cfFedId>
+<cfFedId>cfResProd_Equip</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18900,7 +18900,7 @@ Definition Source: http://inspire-registry.jrc.ec.europa.eu/registers/GLOSSARY/i
 Definition Source: http://www.thefreedictionary.com/measurement</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfMeasurement</cfFedId>
+<cfFedId>cfMeas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -18992,7 +18992,7 @@ Definition Source: http://www.thefreedictionary.com/measurement</cfDef>
 Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfIndicator</cfFedId>
+<cfFedId>cfIndic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19026,7 +19026,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Indicator_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfIndicator_Measurement</cfFedId>
+<cfFedId>cfIndic_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19120,7 +19120,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Measurement_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMeasurement_Classification</cfFedId>
+<cfFedId>cfMeas_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19202,7 +19202,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Indicator_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfIndicator_Classification</cfFedId>
+<cfFedId>cfIndic_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19284,7 +19284,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Indicator Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfIndicatorName</cfFedId>
+<cfFedId>cfIndicName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19342,7 +19342,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Indicator Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfIndicatorDescription</cfFedId>
+<cfFedId>cfIndicDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19400,7 +19400,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Indicator Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfIndicatorKeywords</cfFedId>
+<cfFedId>cfIndicKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19458,7 +19458,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Measurement Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMeasurementName</cfFedId>
+<cfFedId>cfMeasName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19516,7 +19516,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Measurement Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMeasurementDescription</cfFedId>
+<cfFedId>cfMeasDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19574,7 +19574,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Measurement Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMeasurementKeywords</cfFedId>
+<cfFedId>cfMeasKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19632,7 +19632,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Measurement</cfFedId>
+<cfFedId>cfPers_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19726,7 +19726,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Measurement</cfFedId>
+<cfFedId>cfOrgUnit_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19820,7 +19820,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Measurement</cfFedId>
+<cfFedId>cfProj_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -19914,7 +19914,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Measurement</cfFedId>
+<cfFedId>cfResPubl_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20008,7 +20008,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Measurement</cfFedId>
+<cfFedId>cfResPat_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20102,7 +20102,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Measurement</cfFedId>
+<cfFedId>cfResProd_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20196,7 +20196,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Measurement</cfFedId>
+<cfFedId>cfFacil_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20290,7 +20290,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_Measurement</cfFedId>
+<cfFedId>cfSrv_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20384,7 +20384,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Measurement</cfFedId>
+<cfFedId>cfEquip_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20478,7 +20478,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Person_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPerson_Indicator</cfFedId>
+<cfFedId>cfPers_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20572,7 +20572,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Organisation Unit_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfOrganisationUnit_Indicator</cfFedId>
+<cfFedId>cfOrgUnit_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20666,7 +20666,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Project_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfProject_Indicator</cfFedId>
+<cfFedId>cfProj_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20760,7 +20760,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Publication_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPublication_Indicator</cfFedId>
+<cfFedId>cfResPubl_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20854,7 +20854,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Patent_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultPatent_Indicator</cfFedId>
+<cfFedId>cfResPat_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -20948,7 +20948,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Result Product_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_Indicator</cfFedId>
+<cfFedId>cfResProd_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21042,7 +21042,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Facility_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFacility_Indicator</cfFedId>
+<cfFedId>cfFacil_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21136,7 +21136,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Service_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfService_Indicator</cfFedId>
+<cfFedId>cfSrv_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21230,7 +21230,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Equipment_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEquipment_Indicator</cfFedId>
+<cfFedId>cfEquip_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21324,7 +21324,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Event_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEvent_Measurement</cfFedId>
+<cfFedId>cfEvent_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21418,7 +21418,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Event_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfEvent_Indicator</cfFedId>
+<cfFedId>cfEvent_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21512,7 +21512,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Medium_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMedium_Indicator</cfFedId>
+<cfFedId>cfMedium_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21606,7 +21606,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Medium_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMedium_Measurement</cfFedId>
+<cfFedId>cfMedium_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21700,7 +21700,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Indicator_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfIndicator_Indicator</cfFedId>
+<cfFedId>cfIndic_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21794,7 +21794,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Measurement_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfMeasurement_Measurement</cfFedId>
+<cfFedId>cfMeas_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21888,7 +21888,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 <cfTerm cfLangCode="en" cfTrans="o">Classification Definition</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfClassificationDefinition</cfFedId>
+<cfFedId>cfClassDef</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -21968,7 +21968,7 @@ Definition Source: http://www.thefreedictionary.com/indicator</cfDef>
 The CERIF classification scheme name entity is physically (cfClassSchemeName) and logically (cfClassificationSchemeName) defined as an entity in the ERM, which is linked to the cfClass (cfClassification) entity through the (cfClassId) or (cfClassificationIdentifier) inheritance.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfClassificationSchemeName</cfFedId>
+<cfFedId>cfClassSchemeName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22036,7 +22036,7 @@ The CERIF classification scheme name entity is physically (cfClassSchemeName) an
 The CERIF classification example entity is physically (cfClassEx) and logically (cfClassificationExample) defined as an entity in the ERM, which is linked to the cfClass (cfClassification) entity through the (cfClassId) or (cfClassificationIdentifier) inheritance.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfClassificationExample</cfFedId>
+<cfFedId>cfClassEx</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22112,7 +22112,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Geographic Bounding Box_ Geographic Bounding Box</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfGeographicBoundingBox_GeographicBoundingBox</cfFedId>
+<cfFedId>cfGeoBBox_GeoBBox</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22206,7 +22206,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Prize Award Name</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPrizeAwardName</cfFedId>
+<cfFedId>cfPrizeName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22264,7 +22264,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Prize Award Description</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPrizeAwardDescription</cfFedId>
+<cfFedId>cfPrizeDescr</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22322,7 +22322,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Prize Award Keywords</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfPrizeAwardKeywords</cfFedId>
+<cfFedId>cfPrizeKeyw</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22380,7 +22380,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Funding_ Indicator</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFunding_Indicator</cfFedId>
+<cfFedId>cfFund_Indic</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22486,7 +22486,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Funding_ Measurement</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFunding_Measurement</cfFedId>
+<cfFedId>cfFund_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22592,7 +22592,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Qualification Title</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfQualificationTitle</cfFedId>
+<cfFedId>cfQualTitle</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22652,7 +22652,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDef cfLangCode="en" cfTrans="o">The cfResultPatentVersionInfo entity (cfResPatVersInf) is a pending entity.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultPatentVersionInfo</cfFedId>
+<cfFedId>cfResPatVersInfo</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22712,7 +22712,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDef cfLangCode="en" cfTrans="o">The cfResultProductVersionInfo entity (cfResProdVersInf) is a pending entity.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultProductVersionInfo</cfFedId>
+<cfFedId>cfResProdVersInfo</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22772,7 +22772,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDef cfLangCode="en" cfTrans="o">The cfResultPublicationVersionInfo entity (cfResPublVersInf) is a pending entity.</cfDef>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultPublicationVersionInfo</cfFedId>
+<cfFedId>cfResPublVersInfo</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22830,7 +22830,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Federated Identifier</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFederatedIdentifier</cfFedId>
+<cfFedId>cfFedId</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22894,7 +22894,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Federated Identifier_ Classification</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFederatedIdentifier_Classification</cfFedId>
+<cfFedId>cfFedId_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -22976,7 +22976,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfTerm cfLangCode="en" cfTrans="o">Federated Identifier_ Service</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 <cfFedId>
-<cfFedId>cfFederatedIdentifier_Service</cfFedId>
+<cfFedId>cfFedId_Srv</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -23072,7 +23072,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDef cfLangCode="en" cfTrans="o"/>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_ResultPatent</cfFedId>
+<cfFedId>cfResProd_ResPat</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -23168,7 +23168,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDef cfLangCode="en" cfTrans="o"/>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultProductAlternateName</cfFedId>
+<cfFedId>cfResProdAltName</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -23228,7 +23228,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDef cfLangCode="en" cfTrans="o"/>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfResultProduct_GeographicBoundingBox</cfFedId>
+<cfFedId>cfResProd_GeoBBox</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -23324,7 +23324,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDef cfLangCode="en" cfTrans="o"/>
 <cfDefSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDefSrc>
 <cfFedId>
-<cfFedId>cfGeographicBoundingBox_Measurement</cfFedId>
+<cfFedId>cfGeoBBox_Meas</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -23420,7 +23420,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDescr cfLangCode="en" cfTrans="o"/>
 <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
 <cfFedId>
-<cfFedId>cfClassificationScheme_Classification</cfFedId>
+<cfFedId>cfClassScheme_Class</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
@@ -23528,7 +23528,7 @@ The CERIF classification example entity is physically (cfClassEx) and logically 
 <cfDescr cfLangCode="en" cfTrans="o"/>
 <cfDescrSrc cfLangCode="en" cfTrans="o">CERIF Task Group</cfDescrSrc>
 <cfFedId>
-<cfFedId>cfClassificationScheme_OrganisationUnit</cfFedId>
+<cfFedId>cfClassScheme_OrgUnit</cfFedId>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
