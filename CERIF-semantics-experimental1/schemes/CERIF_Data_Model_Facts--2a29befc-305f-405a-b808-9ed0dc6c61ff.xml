@@ -48,6 +48,20 @@
             <cfRoleExprOpp cfLangCode="en" cfTrans="o">is realized by</cfRoleExprOpp>
         </cfClass>
         <cfClass>
+            <cfClassId>806bf389-971a-4062-bacc-adc950ec9183<!-- parent entity in relationship --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">parent entity in relationship</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">is parent entity in</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">has parent entity</cfRoleExprOpp>
+        </cfClass>
+        <cfClass>
+            <cfClassId>37f31879-a035-4fb2-8082-4dcd1980e681<!-- child entity in relationship --></cfClassId>
+            <cfTerm cfLangCode="en" cfTrans="o">child entity in relationship</cfTerm>
+            <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+            <cfRoleExpr cfLangCode="en" cfTrans="o">is child entity in</cfRoleExpr>
+            <cfRoleExprOpp cfLangCode="en" cfTrans="o">has child entity</cfRoleExprOpp>
+        </cfClass>
+        <cfClass>
             <cfClassId>ff280b72-d85e-4000-92b9-d3866e477df0<!-- used in profile --></cfClassId>
             <cfTerm cfLangCode="en" cfTrans="o">used in profile</cfTerm>
             <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
