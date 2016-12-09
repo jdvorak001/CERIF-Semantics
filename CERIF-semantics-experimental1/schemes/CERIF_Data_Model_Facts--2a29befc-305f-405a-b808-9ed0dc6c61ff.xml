@@ -75,5 +75,12 @@
             <cfRoleExpr cfLangCode="en" cfTrans="o">is not used in profile</cfRoleExpr>
             <cfRoleExprOpp cfLangCode="en" cfTrans="o">not uses</cfRoleExprOpp>
         </cfClass>
+        <cfClass>
+        	<cfClassId>dff73f6b-52cb-49e6-bef1-a16eb0e6bdbd<!-- classification scheme type --></cfClassId>
+        	<cfTerm cfLangCode="en" cfTrans="o">The type of a classification scheme</cfTerm>
+        	<cfTermSrc cfLangCode="en" cfTrans="o">JDX1</cfTermSrc>
+        	<cfRoleExpr cfLangCode="en" cfTrans="o">is of type</cfRoleExpr>
+        	<cfRoleExprOpp cfLangCode="en" cfTrans="o">is the type of</cfRoleExprOpp>
+        </cfClass>
     </cfClassScheme>
 </CERIF>
