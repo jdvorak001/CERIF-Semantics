@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="2015-01-01" sourceDatabase="CERIF.txp" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd">
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="2016-12-10" sourceDatabase="CERIF.txp" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd">
 <cfClassScheme>
 <cfClassSchemeId>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId>
 <cfName cfLangCode="en" cfTrans="o">CERIF Entity Types</cfName>
@@ -47,6 +47,11 @@
 <cfClass>
 <cfClassId>3494420d-7b32-4815-83de-0229602da0b3<!-- Indicators & Measurements --></cfClassId>
 <cfTerm cfLangCode="en" cfTrans="o">Indicators &amp; Measurements</cfTerm>
+<cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
+</cfClass>
+<cfClass>
+<cfClassId>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId>
+<cfTerm cfLangCode="en" cfTrans="o">Dublin Core</cfTerm>
 <cfTermSrc cfLangCode="en" cfTrans="o">CERIF ER-M</cfTermSrc>
 </cfClass>
 </cfClassScheme>
