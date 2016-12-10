@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="2015-01-01" sourceDatabase="CERIF.txp" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd">
+<CERIF xmlns="urn:xmlns:org:eurocris:cerif-1.6.1-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="2016-12-10" sourceDatabase="CERIF.txp" xsi:schemaLocation="urn:xmlns:org:eurocris:cerif-1.6.1-3 http://www.eurocris.org/Uploads/Web%20pages/CERIF-1.6.1/CERIF_1.6.1_3.xsd">
 <cfClassScheme>
 <cfClassSchemeId>6e0d9af0-1cd6-11e1-8bc2-0800200c9a66<!-- CERIF Entities --></cfClassSchemeId>
 <cfName cfLangCode="en" cfTrans="o">CERIF Entities</cfName>
@@ -10562,6 +10562,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>f2a6d89d-ce5b-46a2-8438-6420bf947927<!-- cfDC.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -10601,6 +10607,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>e6025ec3-3cc2-4566-8628-87bfa4bb816f<!-- cfDCPublisher.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -10672,6 +10684,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>c36a79ee-9725-413c-b2bc-054f52f8d4ba<!-- cfDCCreator.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -10742,6 +10760,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>dbc91d0f-a5e9-4e15-b448-7d3ce7ae9d48<!-- cfDCContributor.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -10811,6 +10835,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>3ecb5d2a-93bf-478d-8272-fd32f06f3005<!-- cfDCRelation.cfDCId1 --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -10930,6 +10960,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>140812cf-4e52-46c9-9d4e-aed5c44bd5d0<!-- cfDCLanguage.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -10999,6 +11035,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>33945fd3-ef6a-4f05-a9f3-4535d4e32def<!-- cfDCRightsHolder.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -11070,6 +11112,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>30b399f8-7e2f-43bd-aceb-408690bf31c0<!-- cfDCTitle.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -11139,6 +11187,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>a65a8438-1be9-437c-bf6d-3c8afe4e099b<!-- cfDCSubject.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -11210,6 +11264,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>03f42d46-b126-4d9b-82e7-e277d1e3da66<!-- cfDCDescription.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -11279,6 +11339,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>1b52ade6-9896-4911-bd7e-d585f923b240<!-- cfDCDate.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -11362,6 +11428,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>3bcc28e8-b94b-400a-92bd-e84aeeef23f0<!-- cfDCAudience.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -11431,6 +11503,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>b7096d3d-37bb-4e1e-81d2-1d501a67d06f<!-- cfDCResourceType.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -11502,6 +11580,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>498582cd-6df8-41c4-b910-f8bab2fc66f1<!-- cfDCFormat.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -11571,6 +11655,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>72da86f2-d720-4fa6-908c-99c6f385370d<!-- cfDCResourceIdentifier.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -11642,6 +11732,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>f7cb6a26-2be0-415b-8e21-81f3838db00e<!-- cfDCProvenance.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -11711,6 +11807,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>0f685d08-312a-471a-9a50-b41acf967245<!-- cfDCSource.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -11782,6 +11884,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>9482c8a9-374e-440a-a5d2-acf9642dabe1<!-- cfDCCoverage.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -11851,6 +11959,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>71bc5e4f-4061-4479-94f7-aefddd56e0d1<!-- cfDCCoverageSpatial.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -11940,6 +12054,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>903be610-2763-48b8-a184-2bca27bae6aa<!-- cfDCCoverageTemporal.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -12022,6 +12142,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>35745f67-6630-4c5e-8247-f77a51333b24<!-- cfDCRightsMM.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -12092,6 +12218,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>318cf475-528f-4c49-8089-ab59dc7b6f27<!-- cfDCRightsMMAccessRights.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -12155,6 +12287,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>81e8951e-77a5-4b1a-9158-f25e25340d16<!-- cfDCRightsMMLicense.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -12220,6 +12358,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>56eae666-d9d7-4c71-b08f-318842d26994<!-- cfFDCRightsMMPrivacy.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -12283,6 +12427,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>64a49d74-ef48-4fa3-8927-8fc01da3bad6<!-- cfFDCRightsMMRights.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -12348,6 +12498,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
 <cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
+<cfClass_Class>
 <cfClassId2>9e99cfe4-2fbc-4558-aed2-c2936d6e434c<!-- cfFDCRightsMMPricing.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
 <cfClassId>836509cb-9d07-4c93-9db1-1097edc89115<!-- Attribute --></cfClassId>
@@ -12411,6 +12567,12 @@ Definition Source: http://wordnetweb.princeton.edu/perl/webwn?s=address</cfDef>
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>66c54cf1-ee03-4746-8129-74bac9f8c6b4<!-- Dublin Core --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>197ce5d0-9881-4784-bc4b-7a8e06478810<!-- cfFDCRightsMMSecurity.cfDCId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -13386,6 +13548,12 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>69f7eebc-c27b-4b02-b2de-8e2b645669b2<!-- 2nd Order Entities --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>141208ef-f956-4ea7-b841-e16cef7058cd<!-- cfMetrics.cfMetricsId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
@@ -15152,6 +15320,12 @@ In CERIF, the citation concept is used for publication references outside from t
 <cfClassId>4da60ca4-3480-40f1-b376-f43808b71d66<!-- CERIF Physical Name --></cfClassId>
 <cfClassSchemeId>bccb3266-689d-4740-a039-c96594b4d916<!-- Identifier Types --></cfClassSchemeId>
 </cfFedId>
+<cfClass_Class>
+<cfClassId1>69f7eebc-c27b-4b02-b2de-8e2b645669b2<!-- 2nd Order Entities --></cfClassId1>
+<cfClassSchemeId1>348ce6ee-43ef-4b71-aa77-a11ff988cae4<!-- CERIF Entity Types --></cfClassSchemeId1>
+<cfClassId>f22733fc-40c8-4a28-9071-6b49bd921621<!-- Applicable --></cfClassId>
+<cfClassSchemeId>2a29befc-305f-405a-b808-9ed0dc6c61ff<!-- CERIF Data Model Facts --></cfClassSchemeId>
+</cfClass_Class>
 <cfClass_Class>
 <cfClassId2>9648ba5e-33f7-4190-8bd0-d15bd010a8d0<!-- cfMedium.cfMediumId --></cfClassId2>
 <cfClassSchemeId2>318118e8-d323-4e3b-9882-a17c635e9c58<!-- CERIF Attributes --></cfClassSchemeId2>
